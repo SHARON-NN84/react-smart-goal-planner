@@ -1,4 +1,4 @@
-function NewGoalDialog({ goalsList, isClicked, updateIsClicked }) {
+function GoalDialog({ goallist, isClicked, updateIsClicked }) {
     return (
         <div>
         className={`absolute z-50 ${isClicked ? "block" : "hidden"} w-full h-screen bg-black/45 flex justify-center items-center`}
@@ -32,4 +32,4 @@ function NewGoalDialog({ goalsList, isClicked, updateIsClicked }) {
     )
 }
 
-export default NewGoalDialog;
+export default GoalDialog;

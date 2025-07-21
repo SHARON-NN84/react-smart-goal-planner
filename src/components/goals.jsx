@@ -34,4 +34,4 @@ function Goal({ id, name, targetAmount, savedAmount, category, deadline, created
     )
 }
 
-export default Goal;
+export default goal;

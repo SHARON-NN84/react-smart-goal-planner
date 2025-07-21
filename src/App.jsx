@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Plus } from 'lucide-react'
 import goallist from './components/goallist'
-import dialog from './components/dialog'
+import dialog from './components/GoalDialog'
 import goals from './components/goals'
 import './App.css'
 

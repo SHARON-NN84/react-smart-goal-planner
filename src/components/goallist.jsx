@@ -23,4 +23,4 @@ function goallist({ goallist }) {
     )
 }
 
-export default GoalsList;
+export default goallist;

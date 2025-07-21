@@ -3,8 +3,8 @@ import Goal from "./Goal.jsx"
 function GoalsList({ goalsList }) {
     return (
         <div className="my-2.5 flex flex-col gap-3.5">
-            <span className="text-2xl font-semibold">Active Goals</span>
-            <div className="flex flex-col gap-2.5">
+            <span className="text-3xl font-bold">Active Goals</span>
+            <div className="flex flex-col gap-3.5">
                 {goalsList.map(goal => {
                     return (
                         <Goal 

@@ -1,8 +1,8 @@
 function NewGoalDialog({ goalsList, isClicked, updateIsClicked }) {
     return (
-        <div 
+        <div>
         className={`absolute z-50 ${isClicked ? "block" : "hidden"} w-full h-screen bg-black/45 flex justify-center items-center`}
-        >
+        
             <div className="w-2xl rounded-3xl bg-white p-7">
                 <p className="text-3xl font-semibold py-5">Create a new goal</p>
                 <form className="flex flex-col gap-2.5">

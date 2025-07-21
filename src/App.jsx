@@ -20,7 +20,7 @@ function App() {
       <header className='w-full md:h-24 bg-white shadow p-6 flex justify-between items-center fixed'>
         <div>
           <h1 className='font-semibold text-3xl'>Financial Goals</h1>
-          <p className='text-gray-500'>Track your progress towards financial independence</p>
+          <p className='text-gray-500'>Track your progress </p>
         </div>
         <div>
           <button 

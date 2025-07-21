@@ -1,6 +1,6 @@
-import Goal from "./Goal.jsx"
+import goal from "./goals.jsx"
 
-function GoalsList({ goalsList }) {
+function goallist({ goallist }) {
     return (
         <div className="my-2.5 flex flex-col gap-3.5">
             <span className="text-3xl font-bold">Active Goals</span>
